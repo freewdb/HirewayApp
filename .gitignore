@@ -1,0 +1,41 @@
+# Node.js artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables & Configs
+.env
+
+# Logs
+logs
+*.log
+*.log.*
+log/
+*.pid
+*.seed
+*.out
+*.pid.lock
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime*
+*.DS_Store
+*.tmp
+*.temp
+*.tlog
+*.log
+*.log.*
+*.bak
+*.cache
+*.lock
+*.old
+*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
