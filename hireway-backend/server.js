@@ -112,7 +112,7 @@ app.get('/orders/:id', async (req, res) => {
         if (!orders) return res.status(404).json({ message: 'Order not found' });
         res.json(orders);
     } catch (error) {
-        res.status(500).json({ message: 'Error retrieving order', error });
+        res.status(500).json({ message: 'Error retrieving order', error });}
         import express from 'express';
         import { createServer } from 'http';
         import { Server } from 'socket.io';
