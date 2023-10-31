@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "b@ckendzxcQwe",
+    "database": "hireway_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "b@ckendzxcQwe",
+    "database": "hireway_db_test",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "your_production_password",
+    "database": "hireway_db_production",
+    "host": "your_production_host",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
